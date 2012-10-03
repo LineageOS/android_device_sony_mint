@@ -42,8 +42,9 @@ PRODUCT_COPY_FILES += \
    $(LOCAL_PATH)/config/init.sony.usb.rc:root/init.sony.usb.rc
 
 PRODUCT_COPY_FILES += \
-   $(LOCAL_PATH)/config/vold.fstab:system/etc/vold.fstab \
-   $(LOCAL_PATH)/config/media_profiles.xml:system/etc/media_profiles.xml
+   $(LOCAL_PATH)/config/audio_policy.conf:system/etc/audio_policy.conf \
+   $(LOCAL_PATH)/config/media_profiles.xml:system/etc/media_profiles.xml \
+   $(LOCAL_PATH)/config/vold.fstab:system/etc/vold.fstab
 
 # Recovery bootstrap (device-specific part)
 PRODUCT_COPY_FILES += \
