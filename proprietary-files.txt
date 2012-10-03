@@ -243,6 +243,7 @@ lib/libsys-utils.so
 lib/libta.so
 lib/libwifiscanner.so
 lib/libxml.so
+lib/qnet-plugin.so
 lib/sysmon/sysmon_batt_therm.so
 lib/sysmon/sysmon_charge_current_limit_level0.so
 lib/sysmon/sysmon_charge_current_limit_level1.so
