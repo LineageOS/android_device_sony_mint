@@ -45,6 +45,8 @@ etc/fast-dormancy/fd_int_conf.txt
 etc/firmware/a225_pfp.fw
 etc/firmware/a225_pm4.fw
 etc/firmware/a225p5_pm4.fw
+etc/firmware/a300_pfp.fw
+etc/firmware/a300_pm4.fw
 etc/firmware/cyttsp_8960_cdp.hex
 etc/firmware/dsps.b00
 etc/firmware/dsps.b01
@@ -154,6 +156,7 @@ lib/egl/libEGL_adreno200.so
 lib/egl/libGLESv1_CM_adreno200.so
 lib/egl/libGLESv2S3D_adreno200.so
 lib/egl/libGLESv2_adreno200.so
+lib/egl/libplayback_adreno200.so
 lib/egl/libq3dtools_adreno200.so
 lib/hw/camera.msm8960.so
 lib/hw/gps.sony.so
@@ -172,6 +175,7 @@ lib/libals.so
 lib/libaudcal.so
 lib/libaudioalsa.so
 lib/libbson.so
+lib/libc2d2_a3xx.so
 lib/libc2d2_z180.so
 lib/libcald_client.so
 lib/libcald_hal.so
@@ -236,6 +240,7 @@ lib/libril-qc-qmi-1.so
 lib/libril.so
 lib/libs1sl.so
 lib/libsc-a2xx.so
+lib/libsc-a3xx.so
 lib/libsensor1.so
 lib/libsurfaceflinger_client.so
 lib/libsys-utils.so
