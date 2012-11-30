@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAa3//5Sg\u003d",
+        "filename": "cm.dependencies",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1084
+      },
+      "writtenOn": "2012-11-30T00:25:54Z",
+      "side": 1,
+      "message": "Does this exist?",
+      "revId": "cb4e68e9abac45dc0dea3b141ef9c09c5849150f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
