@@ -23,6 +23,7 @@
 
     <!-- Internal emulated storage -->
     <storage
+        android:mountPoint="/storage/emulated"
         android:storageDescription="@string/storage_internal"
         android:emulated="true"
         android:mtpReserve="100" />
@@ -33,15 +34,6 @@
         android:storageDescription="@string/storage_sd_card"
         android:primary="false"
         android:removable="true" />
-
-    <!-- internal EMMC SDCard
-    <storage
-        android:mountPoint="/storage/sdcard2"
-        android:storageDescription="@string/storage_sd_card"
-        android:emulated="true"
-        android:primary="false"
-        android:removable="false" />
-    -->
 
     <!-- external USB OTG storage -->
     <storage
