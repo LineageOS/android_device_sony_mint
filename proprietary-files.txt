@@ -10,7 +10,6 @@ bin/ds_fmc_appd
 bin/fast-dormancy
 bin/fm_qsoc_patches
 bin/fmconfig
-bin/fota-snoop
 bin/hci_qcomm_init
 bin/iw
 bin/mm-pp-daemon
@@ -29,7 +28,6 @@ bin/tad
 bin/taimport
 bin/thermald
 bin/updatemiscta
-bin/usbeng
 bin/usbhub
 bin/usbhub_init
 bin/wait4tad
