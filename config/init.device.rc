@@ -26,6 +26,11 @@ on boot
     chmod 660 /sys/devices/i2c-10/10-0040/pattern_delay
     chown system system /sys/devices/i2c-10/10-0040/pattern_duration_secs
     chmod 660 /sys/devices/i2c-10/10-0040/pattern_duration_secs
+    chown system system /sys/devices/i2c-10/10-0040/pattern_use_softdim
+    chmod 660 /sys/devices/i2c-10/10-0040/pattern_use_softdim
+    chown system system /sys/devices/i2c-10/10-0040/dim_time
+    chmod 660 /sys/devices/i2c-10/10-0040/dim_time
+
 
     # Vibrator
     chown system system /sys/devices/i2c-12/12-0049/intensity
