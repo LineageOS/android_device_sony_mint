@@ -49,12 +49,12 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/config/init.sony.usb.rc:root/init.sony.usb.rc
 
+# LK installer
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/prebuilt/partition.sh:partition.sh
+
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/config/media_profiles.xml:system/etc/media_profiles.xml
-
-# Device specific part for two-stage boot
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/recovery/bootrec-device:recovery/bootrec-device
 
 # Key layouts and touchscreen
 PRODUCT_COPY_FILES += \
