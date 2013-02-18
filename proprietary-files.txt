@@ -42,9 +42,6 @@ etc/clearpad_fwloader.sh
 etc/fast-dormancy/fd_custm_conf.txt
 etc/fast-dormancy/fd_ext_conf.txt
 etc/fast-dormancy/fd_int_conf.txt
-etc/firmware/a225_pfp.fw
-etc/firmware/a225_pm4.fw
-etc/firmware/a225p5_pm4.fw
 etc/firmware/cyttsp_8960_cdp.hex
 etc/firmware/dsps.b00
 etc/firmware/dsps.b01
@@ -53,8 +50,6 @@ etc/firmware/dsps.b03
 etc/firmware/dsps.b04
 etc/firmware/dsps.b05
 etc/firmware/dsps.mdt
-etc/firmware/leia_pfp_470.fw
-etc/firmware/leia_pm4_470.fw
 etc/firmware/modem.b00
 etc/firmware/modem.b01
 etc/firmware/modem.b02
@@ -141,20 +136,12 @@ etc/firmware/wcnss.mdt
 etc/firmware/wlan/prima/WCNSS_cfg.dat
 etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini
 etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin
-lib/egl/eglsubAndroid.so
-lib/egl/libEGL_adreno200.so
-lib/egl/libGLESv1_CM_adreno200.so
-lib/egl/libGLESv2S3D_adreno200.so
-lib/egl/libGLESv2_adreno200.so
-lib/egl/libq3dtools_adreno200.so
 lib/hw/camera.msm8960.so
 lib/hw/gps.sony.so
 lib/hw/nfc.msm8960.so
 lib/hw/sensors.default.so
-lib/libC2D2.so
 lib/libMPU3050.so
 lib/libMiscTaAccessor.so
-lib/libOpenVG.so
 lib/libQSEEComAPI.so
 lib/lib_asb_tee.so
 lib/lib_get_rooting_status.so
@@ -164,7 +151,6 @@ lib/libals.so
 lib/libaudcal.so
 lib/libaudioalsa.so
 lib/libbson.so
-lib/libc2d2_z180.so
 lib/libcald_client.so
 lib/libcald_hal.so
 lib/libcald_imageutil.so
@@ -190,7 +176,6 @@ lib/libfmradio.so
 lib/libfmradio.sony-iris.so
 lib/libgemini.so
 lib/libgps.utils.so
-lib/libgsl.so
 lib/libidd.so
 lib/libidl.so
 lib/libkeyctrl.so
@@ -229,7 +214,6 @@ lib/libquipc_ulp_adapter.so
 lib/libril-qc-qmi-1.so
 lib/libril.so
 lib/libs1sl.so
-lib/libsc-a2xx.so
 lib/libsensor1.so
 lib/libsurfaceflinger_client.so
 lib/libsys-utils.so
