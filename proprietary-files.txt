@@ -133,9 +133,6 @@ etc/firmware/wcnss.b01
 etc/firmware/wcnss.b02
 etc/firmware/wcnss.b04
 etc/firmware/wcnss.mdt
-etc/firmware/wlan/prima/WCNSS_cfg.dat
-etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini
-etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin
 lib/hw/camera.msm8960.so
 lib/hw/gps.sony.so
 lib/hw/nfc.msm8960.so
