@@ -134,7 +134,6 @@ etc/firmware/wcnss.mdt
 lib/hw/camera.msm8960.so
 lib/hw/gps.sony.so
 lib/hw/nfc.msm8960.so
-lib/hw/sensors.default.so
 lib/libMPU3050.so
 lib/libMiscTaAccessor.so
 lib/libQSEEComAPI.so
