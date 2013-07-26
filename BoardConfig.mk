@@ -5,6 +5,9 @@ TARGET_SPECIFIC_HEADER_PATH += device/sony/mint/include
 
 TARGET_KERNEL_CONFIG := cm_blue_mint_defconfig
 
+# Recovery
+RECOVERY_FSTAB_VERSION := 2
+
 # Partition information
 BOARD_VOLD_MAX_PARTITIONS := 18
 
